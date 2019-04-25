@@ -1,0 +1,146 @@
+
+body {
+  background: url("https://wallpaperaccess.com/full/849790.gif") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
+   overflow-x: hidden;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.30em;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #11ffee00;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #B502E5;
+}
+
+/*
+* ================================
+*     ===== Screen edits =====
+* ================================
+*/
+
+@media screen and (max-width: 1920px) {
+
+.section {
+  padding-top: 6%;
+  color: #ffffff;
+}
+.section .top-side {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+.section .top-side .title {
+  font-weight: 500;
+  font-size: 15px;
+  display: inline-block;
+  color: white;
+}
+.section .top-side .title:after {
+  content: "";
+  display: block;
+  width: 50%;
+  border-bottom: 1px solid #ffffff;
+  margin: 8px auto;
+}
+.section .top-side h2 {
+  font-weight: 700;
+  color: #ffffff;
+}
+.section.portfolio .filters {
+  text-align: center;
+  color: #ffffff;
+}
+.section.portfolio .filters ul {
+  padding: 0;
+}
+.section.portfolio .filters ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px 30px;
+  cursor: pointer;
+  position: relative;
+}
+.section.portfolio .filters ul li:after {
+  content: "";
+  display: block;
+  width: calc(0% - 60px);
+  position: absolute;
+  height: 2px;
+  background: #ffffff;
+  transition: width 350ms ease-out;
+}
+.section.portfolio .filters ul li:hover:after {
+  width: calc(100% - 60px);
+  transition: width 350ms ease-out;
+}
+.section.portfolio .filters ul li.active:after {
+  width: calc(100% - 60px);
+}
+.section.portfolio .filters-content {
+  margin-top: 50px;
+}
+.section.portfolio .filters-content .show {
+  opacity: 1;
+  visibility: visible;
+  transition: all 350ms;
+}
+.section.portfolio .filters-content .hide {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 350ms;
+}
+.section.portfolio .filters-content .item {
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.section.portfolio .filters-content .item img {
+  width: 100%;
+}
+
+
+}
+
+@media screen and (max-width: 1440px) {
+
+
+}
+
+@media screen and (max-width: 1366px) {
+
+
+}
+
+@media screen and (max-width: 1280px) {
+
+
+}
+
+@media screen and (max-width: 1180px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+
+}
+
+@media screen and (max-width: 991px) {
+
+  #navbarNav {
+    text-align: center;
+  }
+
+}
